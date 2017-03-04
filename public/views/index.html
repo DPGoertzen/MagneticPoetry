@@ -4,17 +4,27 @@
     <meta charset="utf-8">
     <title>Magnetic Poetry</title>
     <script src="/vendors/angular.min.js"></script>
-    <script src="/scripts/app.js"></script>
+    <script src="/vendors/p5/p5.min.js"></script>
+    <script src="/vendors/p5/addons/p5.dom.min.js"></script>
+    <script src="/scripts/app.module.js"></script>
     <script src="/scripts/MagneticController.js"></script>
+    <script src="/scripts/magneticSketch.js"></script>
     <link rel="stylesheet" href="/styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="/styles/styles.css" />
   </head>
-  <body>
+  <body ng-controller="MagneticController as MC">
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
-          FUCK ALL THIS BULL SHIT {{3+3}}
+          FUCK ALL THIS BULL SHIT {{3+3}} {{MC.sandwich}}
         </div>
       </div>
     </nav>
+    <div id="magneticSketch" class="center-block">
+      <!-- Placeholder for sketch  -->
+    </div>
+
+
+
   </body>
 </html>

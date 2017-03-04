@@ -1,0 +1,12 @@
+#magneticSketch {
+  margin: 0;
+  /*border-radius: 10px 10px;*/
+  /*border: 1px solid black;*/
+  display: flex;
+
+ /* This centers our sketch horizontally. */
+  justify-content: center;
+
+ /* This centers our sketch vertically. */
+  align-items: center;
+}
